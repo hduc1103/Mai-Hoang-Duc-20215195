@@ -1,1 +1,11 @@
+Question 1:
+  Accessor methods, also known as getters and setters, are used to access and modify the values of private variables in an object-oriented program.If you want to control access to an object's internal state and ensure that any changes made to the object's state are done in a controlled manner, you had better use accessor methods.
+  There are four main cases that accessor methods should be used:
+- Encapsulation: Encapsulating the internal state of an object, which means the implementation details of the object are hidden. This allows you to modify the internal structure without changing the behavior of other parts.
+- Data validation and abstraction: Validating data before its being set in an object, ensuring that the process is correct.
+- Read-only properties: Allowing external factors to read the property but not modify it.
+- Decoupling: In case the implementation of the class is modified, the clients of the class are protected as long as the accessor methods are unchanged.
 
+Question 2:
+  JAVA allows you to do that since a feature of JAVA which is constructor overloading allows a class to have multiple constructors with different parameter lists. 
+  In this case, the first constructor takes just the title of the DVD as a parameter and assigns it to 'title'. The second constructor takes both the title and the category of the DVD as parameters and assigns 'title' and 'category', respectively.
