@@ -1,4 +1,4 @@
-package AimsProject.Disc;
+package AimsProject.Src.Disc;
 
 public class DigitalVideoDisc {
 	private static int nbDigitalVideoDiscs = 0;

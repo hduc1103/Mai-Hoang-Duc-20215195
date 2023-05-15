@@ -1,4 +1,4 @@
-package AimsProject.Store;
+package AimsProject.Src.Store;
 
 import java.util.ArrayList;
 
