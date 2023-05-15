@@ -1,0 +1,2 @@
+Question: 
+    - Java is a Pass by Value programming language. When passing arguments to a method or funtion in Java, the values of the variables are copied and passed to the method, then the method works with the copies of the values, and any modifications made to the copies do not affect the original variables in the calling code.
