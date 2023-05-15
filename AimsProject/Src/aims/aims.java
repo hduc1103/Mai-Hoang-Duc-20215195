@@ -1,4 +1,4 @@
-package AimsProject.aims;
+package AimsProject.Src.aims;
 
 import AimsProject.Cart.carts;
 import AimsProject.Disc.DigitalVideoDisc;

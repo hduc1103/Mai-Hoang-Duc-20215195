@@ -1,4 +1,4 @@
-package AimsProject.disc_test;
+package AimsProject.Src.disc_test;
 
 import AimsProject.Disc.DigitalVideoDisc;
 
