@@ -3,5 +3,5 @@
 3. Because Book, CompactDisc, and DigitalVideoDisc inherit from Media, the objects book, cd, and dvd are also considered instances of Media.
 4. The Media class should implement the Comparable interface.
 5. Based on the compareTo method's function is to compare one object with another object, it should return a negative or possitive or zero depending on the difference.
-6.  No because the Comparable interface can operate only inside the class.Moreover, it can only be implemented by class Media.
+6. No because the Comparable interface can operate only inside the class.Moreover, it can only be implemented by class Media.
 7. I used override.
