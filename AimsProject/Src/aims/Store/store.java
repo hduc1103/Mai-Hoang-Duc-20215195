@@ -1,8 +1,9 @@
-package AimsProject.Src.Store;
+package AimsProject.Src.aims.Store;
 
-import AimsProject.Src.Media.DigitalVideoDisc;
-import AimsProject.Src.Media.Media;
 import java.util.ArrayList;
+
+import AimsProject.Src.aims.Media.DigitalVideoDisc;
+import AimsProject.Src.aims.Media.Media;
 
 public class store {
 
@@ -54,5 +55,9 @@ public class store {
     }
 
     public void addMedia(DigitalVideoDisc dvd) {
+    }
+
+    public ArrayList<Media> getItemsInStore() {
+        return null;
     }
 }

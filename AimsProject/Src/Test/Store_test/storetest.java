@@ -1,6 +1,6 @@
-package AimsProject.Src.Store_test;
-import AimsProject.Src.Media.DigitalVideoDisc;
-import AimsProject.Src.Store.*;
+package AimsProject.Src.Test.Store_test;
+import AimsProject.Src.aims.Media.DigitalVideoDisc;
+import AimsProject.Src.aims.Store.*;
 public class storetest {
     public static void main(String[] args) {
         store store_test = new store();

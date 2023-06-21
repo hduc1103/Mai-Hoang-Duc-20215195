@@ -1,4 +1,4 @@
-package AimsProject.Src.Media;
+package AimsProject.Src.aims.Media;
 
 public class Disc extends Media{
     private int length;

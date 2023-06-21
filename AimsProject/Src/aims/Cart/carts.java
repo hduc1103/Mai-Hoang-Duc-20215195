@@ -1,9 +1,9 @@
-package AimsProject.Src.Cart;
-
+package AimsProject.Src.aims.Cart;
 
 import java.util.ArrayList;
-
-import AimsProject.Src.Media.*;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
+import AimsProject.Src.aims.Media.*;
 
 public class carts {
     public static final int MAX_NUMBERS_ORDERED = 20;
@@ -88,5 +88,8 @@ public class carts {
         }
 
         if(!isMatch) System.out.println("No match is found");
+    }
+    public ArrayList<Media> getItemsOrdered() {
+        return itemsOrdered;
     }
 }

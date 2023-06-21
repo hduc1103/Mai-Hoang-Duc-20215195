@@ -1,4 +1,4 @@
-package AimsProject.Src.Media;
+package AimsProject.Src.aims.Media;
 
 public class Track implements Playable {
     private String title;

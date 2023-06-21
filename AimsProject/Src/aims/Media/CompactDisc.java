@@ -1,7 +1,9 @@
-package AimsProject.Src.Media;
+package AimsProject.Src.aims.Media;
 
 import java.util.ArrayList;
 import java.util.List;
+import AimsProject.Src.aims.Media.Track;
+import javax.xml.namespace.QName;
 
 public class CompactDisc extends Disc implements Playable {
     private String artist;
@@ -51,7 +53,8 @@ public class CompactDisc extends Disc implements Playable {
         return totalLength;
     }
 
-    public void play() {
+    public void play() throws PlayerException{
+        if(this.getLength()>0){
         System.out.println("Playing Compact Disc:");
         System.out.println("Title: " + getTitle());
         System.out.println("Director: " + getDirector());
@@ -62,6 +65,22 @@ public class CompactDisc extends Disc implements Playable {
             Track track = tracks.get(i);
             System.out.println((i + 1) + ". " + track.getTitle() + " - " + track.getLength() + " minutes");
         }
+    java.util.Iterator iter = tracks.iterator();
+    tracks nexttrack;
+while(iter.hasNext()){
+    nexttrack = (tracks) iter.next();
+    try{
+        nexttrack.play();
+
+    }catch (PlayerException e){
+        throw e;
     }
+}
+    }
+    else {
+        throw new PlayerException("Error: CD length is non-positive");
+    }
+        }
+        
     
 }

@@ -1,4 +1,4 @@
-package AimsProject.Src.Media;
+package AimsProject.Src.aims.Media;
 
 import java.util.ArrayList;
 import java.util.List;

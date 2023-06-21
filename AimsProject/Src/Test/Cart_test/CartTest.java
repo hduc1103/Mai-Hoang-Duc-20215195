@@ -1,7 +1,7 @@
-package AimsProject.Src.Cart_test;
+package AimsProject.Src.Test.Cart_test;
 
-import AimsProject.Src.Cart.carts;
-import AimsProject.Src.Media.DigitalVideoDisc;
+import AimsProject.Src.aims.Cart.carts;
+import AimsProject.Src.aims.Media.DigitalVideoDisc;
 
 public class CartTest {
     public static void main(String[] args){
