@@ -2,10 +2,9 @@ package AimsProject.Src.aims;
 
 import java.util.Scanner;
 
-import AimsProject.Src.Media.*;
-import AimsProject.Src.Store.*;
-import AimsProject.Src.Cart.*;
-import AimsProject.Src.Media.DigitalVideoDisc;
+import AimsProject.Src.aims.Cart.*;
+import AimsProject.Src.aims.Media.*;
+import AimsProject.Src.aims.Store.*;
 
 public class aims {
 	// Menu Design

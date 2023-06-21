@@ -1,4 +1,4 @@
-package AimsProject.Src.Media;
+package AimsProject.Src.aims.Media;
 
 public class DigitalVideoDisc extends Disc implements Playable{
 	private static int nbDigitalVideoDiscs = 0;
@@ -20,10 +20,15 @@ public class DigitalVideoDisc extends Disc implements Playable{
 	public String toString() {
 		return "DVD - Id: " + this.getId() + " - " + this.getTitle() + " - " + this.getCategory() + " - " + this.getDirector() + " - " + this.getLength() + " : " + this.getCost() + " $";
 	}
-	public void play(){
+	public void play() throws PlayerException{
+		if(this.getLength()> 0){
 		System.out.println("Playing DVD: " + this.getTitle());
 		System.out.println("DVD length: " + this.getLength());
+		}
+		else {
+			throw new PlayerException("Error: DVD length nis non-positive");
+		}
+		
 	}
-
 }
    
